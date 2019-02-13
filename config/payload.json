@@ -13,7 +13,7 @@
     "Interval": "10s"
   },
   "Weights": {
-    "Passing": 10,
+    "Passing": 1,
     "Warning": 1
   }
 }
