@@ -11,5 +11,6 @@ COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
 EXPOSE 8080
+VOLUME ["/var/www/static/"]
 
 ENTRYPOINT [ "/entrypoint.sh" ]
